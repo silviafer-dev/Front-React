@@ -1,9 +1,8 @@
-import { Table } from "antd";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers, selectState } from "../features/usersSlice";
-
 import { useFilter } from "../hooks/useFilter";
+import { Table } from "antd";
 
 export const TableData = () => {
   const users = useSelector(selectState);
