@@ -1,10 +1,10 @@
 import "./app.css";
-import { TableData } from "./components/TableData";
+import { Home } from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <TableData />
+      <Home />
     </div>
   );
 };
